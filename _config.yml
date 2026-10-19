@@ -14,7 +14,7 @@ baseurl: ""
 author:
   name: "Fakhreddine Riahi"
   # Pour ajouter une photo : déposer le fichier dans assets/images/ puis retirer le # de la ligne suivante.
-  # avatar: "/assets/images/photo.jpg"
+  avatar: "/assets/images/photo.jpg"
   bio: "Analyste politique et chercheur"
   location: "Québec, Canada"
   links:
