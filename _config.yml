@@ -1,0 +1,50 @@
+# Configuration du site — Fakhreddine Riahi
+# Remplacer VOTRE-NOM-UTILISATEUR par votre nom d'utilisateur GitHub.
+
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "default"   # autres choix : "air", "contrast", "dirt", "mint", "neon", "plum", "sunrise"
+locale: "fr"
+
+title: "Fakhreddine Riahi"
+name: "Fakhreddine Riahi"
+description: "Analyste politique et chercheur : ingérence étrangère, sécurité informationnelle, intelligence artificielle"
+url: "https://VOTRE-NOM-UTILISATEUR.github.io"
+baseurl: ""
+
+author:
+  name: "Fakhreddine Riahi"
+  # Pour ajouter une photo : déposer le fichier dans assets/images/ puis retirer le # de la ligne suivante.
+  # avatar: "/assets/images/photo.jpg"
+  bio: "Analyste politique et chercheur"
+  location: "Québec, Canada"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/fakhreddine-riahi/"
+    - label: "Courriel"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:Fakhreddineriah@gmail.com"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/fakhreddine-riahi/"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

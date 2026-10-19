@@ -1,0 +1,9 @@
+main:
+  - title: "Recherche"
+    url: /recherche/
+  - title: "Formation"
+    url: /formation/
+  - title: "CV"
+    url: /cv/
+  - title: "English"
+    url: /en/
