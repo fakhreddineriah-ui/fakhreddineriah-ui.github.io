@@ -8,13 +8,13 @@ locale: "fr"
 title: "Fakhreddine Riahi"
 name: "Fakhreddine Riahi"
 description: "Analyste politique et chercheur : ingérence étrangère, sécurité informationnelle, intelligence artificielle"
-url: "https://fakhreddineriahi.github.io"
+url: "https://fakhreddineriah-ui.github.io"
 baseurl: ""
 
 author:
   name: "Fakhreddine Riahi"
   # Pour ajouter une photo : déposer le fichier dans assets/images/ puis retirer le # de la ligne suivante.
-  avatar: "/assets/images/photo.jpg"
+  avatar: "/assets/photo.jpg"
   bio: "Analyste politique et chercheur"
   location: "Québec, Canada"
   links:
